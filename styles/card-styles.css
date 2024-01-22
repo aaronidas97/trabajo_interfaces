@@ -5,8 +5,8 @@
   --b: 0.5em; /* border width */
   --c: 3em; /* corner size */
   --r: 2em; /* corner rounding */
-  position: relative;
-  margin-left: 40%;
+
+ 
   border: solid var(--b) transparent;
 
   max-width: 23em;
