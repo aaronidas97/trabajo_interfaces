@@ -1,4 +1,6 @@
-# Índice para Repositorio: Proyecto Pokémon 1ra Generación
+# Proyecto Interfaces
+
+## Índice
 
 1. [Descripción](#descripción)
 2. [Contenido del Proyecto](#contenido-del-proyecto)
@@ -13,6 +15,7 @@
     - [Ley de la Continuidad](#ley-de-la-continuidad)
     - [Regla Fin de Pico](#regla-fin-de-pico)
     - [Ley de Jakob](#ley-de-jakob)
+4. [Bibliografía](#bibliografía)
 
 ---
 
@@ -41,7 +44,7 @@ Este repositorio alberga un pequeño proyecto de página web dedicado a los Pok�
 - **pokemonClass.js**: Define una clase para representar a un Pokémon y gestionar sus atributos.
 - **pokemonList.js**: Contiene la lógica para gestionar la lista de Pokémon y su presentación en la página.
 
-### Imágenes
+### Imágenes estáticas
 
 - **fondo.webp**
 - **logo.png**
@@ -79,3 +82,12 @@ La Regla Fin de Pico establece que la atención del usuario se centra en el punt
 El icono de menú de hamburguesa es ampliamente reconocido como un indicador de opciones de navegación en la versión móvil. Su uso crea una expectativa en los usuarios sobre la presencia de un menú desplegable, permitiéndoles anticipar la acción de abrir y cerrar el menú.
 
 ![Imagen menú hamburguesa](images/readme/hamburguesa.png)
+
+## Bibliografía
+
+1. [PokéAPI - The RESTful Pokémon API](https://pokeapi.co/)
+2. [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+---
+
+**Nota:** Todas las imágenes utilizadas en este proyecto se utilizan con fines educativos y de formación. No se poseen derechos sobre ninguna de las imágenes.
