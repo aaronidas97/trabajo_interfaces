@@ -8,21 +8,14 @@ let listaPokemon = [];
     let lista = document.getElementById("pokemon");
 
     const nextPage = document.getElementById("nextLink");
-
+    let nuevaUrl="";
 document.addEventListener("DOMContentLoaded", () => {
 
     fetchListFromUrl(url)
         .then((listaJson) => {
-            console.log(listaJson.next)
-
-            nextPage.onclick = () =>{
-
-                
-                nextFetch(listaJson.next)
-
-
-
-            };
+        
+            nuevaUrl = listaJson.next;
+           
             let pokemonPromises = Object.values(listaJson.results).map((values) => {
 
                 
@@ -86,33 +79,3 @@ function setPokemonInfo(listaPokemon) {
     });
 }
 
-function nextFetch(nextPokemons){
-    
-    fetchListFromUrl(nextPokemons)
-        .then((listaJson) => {
-            
-
-            nextPage.onclick = () =>{
-
-                url = listaJson.next;
-
-
-
-            };
-            let pokemonPromises = Object.values(listaJson.results).map((values) => {
-
-                
-                let pokemon = new Pokemon();
-                pokemon.nombre = values.name;
-
-                return fetchListFromUrl(values.url)
-                    .then((datosPokemon) => {
-                        pokemon.imagen = datosPokemon.sprites.front_default;
-                        pokemon.weight = datosPokemon.weight;
-                        return pokemon;
-                    });
-            });
-
-            return Promise.all(pokemonPromises);
-        })
-}

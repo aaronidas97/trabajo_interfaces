@@ -27,12 +27,16 @@ Este repositorio alberga un pequeño proyecto de página web dedicado a los Pok�
 
 ### Imágenes
 
-- **fondo.webp**: Imagen de fondo que crea una atmósfera temática para el proyecto.
-- **logo.png**: Logotipo del proyecto que sirve como identificador visual.
-- **logoLetras.webp**: Variante del logotipo con elementos de letras adicionales.
-- **pokemon-party.jpg**: Imagen temática que puede utilizarse para ilustrar
+- **fondo.webp**
+- **logo.png**:
+- **logoLetras.webp**
+- **pokemon-party.jpg**
 
-## La decisión de mostrar a los Pokémon en una lista uniforme, de forma exactamente igual y con los mismos tamaños, se relaciona directamente con varias leyes fundamentales de la Experiencia de Usuario (UX). A continuación, se explica cómo esta elección está vinculada a las leyes mencionadas:
+## Justificación leyes UX
+
+![Pokemon](images\readme\uno.png)
+
+La decisión de mostrar a los Pokémon en una lista uniforme, de forma exactamente igual y con los mismos tamaños, se relaciona directamente con varias leyes fundamentales de la Experiencia de Usuario (UX). A continuación, se explica cómo esta elección está vinculada a las leyes mencionadas:
 
 ### Ley de Proximidad
 
@@ -40,7 +44,7 @@ La presentación uniforme de los Pokémon en la lista, con elementos cercanos un
 
 ### Ley de Similitud
 
-La uniformidad en la presentación, con elementos visuales idénticos y tamaños uniformes, respeta la Ley de Similitud. Al compartir características visuales consistentes, los Pokémon se perciben como relacionados entre sí. Esto contribuye a una experiencia de usuario más clara y comprensible.
+La uniformidad en la presentación, con elementos visuales idénticos y tamaños uniformes, respeta la Ley de Similitud. Al compartir características visuales parecidas, los Pokémon se perciben como relacionados entre sí. Esto contribuye a una experiencia de usuario más clara y comprensible.
 
 ### Ley de la Semejanza
 
