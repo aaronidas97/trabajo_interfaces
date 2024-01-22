@@ -2,9 +2,9 @@
 .card {
     height: 100%;
   background: url() 50% / cover;
-  --b: 0.5em; /* border width */
-  --c: 3em; /* corner size */
-  --r: 2em; /* corner rounding */
+  --b: 0.5em; 
+  --c: 3em; 
+  --r: 2em; 
 
  
   border: solid var(--b) transparent;
