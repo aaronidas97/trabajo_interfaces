@@ -52,3 +52,12 @@ height: 100px;
 .nav-link{
   width: fit-content;
 }
+.nav-item{
+  width: auto;
+  height: fit-content;
+}
+.texto{
+  width: 40%;
+ 
+ 
+}
