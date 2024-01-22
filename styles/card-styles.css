@@ -1,0 +1,35 @@
+
+.card {
+    height: 100%;
+  background: url() 50% / cover;
+  --b: 0.5em; /* border width */
+  --c: 3em; /* corner size */
+  --r: 2em; /* corner rounding */
+  position: relative;
+  margin-left: 40%;
+  border: solid var(--b) transparent;
+
+  max-width: 23em;
+  font: 1.25em ubuntu, sans-serif;
+
+  &::before {
+    position: absolute;
+    z-index: -1;
+    inset: calc(-1 * var(--b));
+    border: inherit;
+    border-radius: var(--r);
+    background: linear-gradient(
+        rgb(198, 47, 60),
+        rgb(227, 255, 15),
+        rgb(198, 47, 60)
+      )
+      border-box;
+    --corner: conic-gradient(from -90deg at var(--c) var(--c), red 25%, #0000 0)
+      0 0 / calc(100% - var(--c)) calc(100% - var(--c)) border-box;
+    --inner: conic-gradient(red 0 0) padding-box;
+    -webkit-mask: var(--corner), var(--inner);
+
+    mask: var(--corner) subtract, var(--inner);
+    content: "";
+  }
+}
