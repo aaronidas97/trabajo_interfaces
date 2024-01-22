@@ -1,4 +1,20 @@
-# Repositorio: Proyecto Pokémon 1ra Generación
+# Índice para Repositorio: Proyecto Pokémon 1ra Generación
+
+1. [Descripción](#descripción)
+2. [Contenido del Proyecto](#contenido-del-proyecto)
+    - [Archivos HTML](#archivos-html)
+    - [Estilos CSS](#estilos-css)
+    - [Scripts JavaScript](#scripts-javascript)
+    - [Imágenes](#imágenes)
+3. [Justificación Leyes UX](#justificación-leyes-ux)
+    - [Ley de Proximidad](#ley-de-proximidad)
+    - [Ley de Similitud](#ley-de-similitud)
+    - [Ley de la Semejanza](#ley-de-la-semejanza)
+    - [Ley de la Continuidad](#ley-de-la-continuidad)
+    - [Regla Fin de Pico](#regla-fin-de-pico)
+    - [Ley de Jakob](#ley-de-jakob)
+
+---
 
 ## Descripción
 
@@ -28,15 +44,13 @@ Este repositorio alberga un pequeño proyecto de página web dedicado a los Pok�
 ### Imágenes
 
 - **fondo.webp**
-- **logo.png**:
+- **logo.png**
 - **logoLetras.webp**
 - **pokemon-party.jpg**
 
-## Justificación leyes UX
+## Justificación Leyes UX
 
-![Pokemon](images\readme\uno.png)
-
-La decisión de mostrar a los Pokémon en una lista uniforme, de forma exactamente igual y con los mismos tamaños, se relaciona directamente con varias leyes fundamentales de la Experiencia de Usuario (UX). A continuación, se explica cómo esta elección está vinculada a las leyes mencionadas:
+![Pokemon](images/readme/uno.png)
 
 ### Ley de Proximidad
 
@@ -54,9 +68,14 @@ La presentación uniforme refuerza la Ley de la Semejanza al destacar las caract
 
 La disposición uniforme de los Pokémon en la lista sigue la Ley de la Continuidad al alinear visualmente los elementos. Esto ayuda a los usuarios a ver la relación entre los Pokémon y proporciona una experiencia fluida en la exploración de la lista.
 
+### Regla Fin de Pico
 
-La decisión de utilizar un *placeholder* en el campo de texto del formulario que incita al usuario a escribir algo y luego presionar "Enter" se alinea con la Ley de UX conocida como la "Regla Fin de Pico". Aquí está la justificación:
+La Regla Fin de Pico establece que la atención del usuario se centra en el punto de la página donde se espera que termine una acción. En este caso, el *placeholder* del campo de texto actúa como un indicador visual que guía al usuario hacia la finalización de la acción deseada.
 
-#### Regla Fin de Pico
+![Buscador de pokemon](images/readme/busqueda.png)
 
-La **Regla Fin de Pico** establece que la atención del usuario se centra en el punto de la página donde se espera que termine una acción. En este caso, el *placeholder* del campo de texto actúa como un indicador visual que guía al usuario hacia la finalización de la acción deseada.
+### Ley de Jakob
+
+El icono de menú de hamburguesa es ampliamente reconocido como un indicador de opciones de navegación en la versión móvil. Su uso crea una expectativa en los usuarios sobre la presencia de un menú desplegable, permitiéndoles anticipar la acción de abrir y cerrar el menú.
+
+![Imagen menú hamburguesa](images/readme/hamburguesa.png)
