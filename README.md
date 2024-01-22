@@ -53,3 +53,10 @@ La presentación uniforme refuerza la Ley de la Semejanza al destacar las caract
 ### Ley de la Continuidad
 
 La disposición uniforme de los Pokémon en la lista sigue la Ley de la Continuidad al alinear visualmente los elementos. Esto ayuda a los usuarios a ver la relación entre los Pokémon y proporciona una experiencia fluida en la exploración de la lista.
+
+
+La decisión de utilizar un *placeholder* en el campo de texto del formulario que incita al usuario a escribir algo y luego presionar "Enter" se alinea con la Ley de UX conocida como la "Regla Fin de Pico". Aquí está la justificación:
+
+#### Regla Fin de Pico
+
+La **Regla Fin de Pico** establece que la atención del usuario se centra en el punto de la página donde se espera que termine una acción. En este caso, el *placeholder* del campo de texto actúa como un indicador visual que guía al usuario hacia la finalización de la acción deseada.
